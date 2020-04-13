@@ -15,7 +15,7 @@ You will see three slides in the sides and bottom, and a selector in the top
 
 ![](https://raw.githubusercontent.com/pablo-vs/hypercube/master/screenshot1.png)
 
-The bottom and right slides control rotation of the 3D projection, the left slide controls rotation of the pair of coordinates selected in the top control. For this 5 dimensional example, coordinates 2, 3 and for are projected to the 3D space and thus any rotation involving only those axes will result in a boring 3d rotation. Rotations along coordinates 0 and 1 are completely beyond 3D space and will show up as a change in size of the different cubes which appear to form the hypercube. Mixed rotations (eg 12) will show up as a change in shape.
+The bottom and right slides control rotation of the 3D projection, the left slide controls rotation of the pair of coordinates selected in the top control. For this 5 dimensional example, coordinates 2, 3 and four are projected to the 3D space and thus any rotation involving only those axes will result in a boring 3d rotation. Rotations along coordinates 0 and 1 are completely beyond 3D space and will show up as a change in size of the different cubes which appear to form the hypercube. Mixed rotations (eg 12) will show up as a change in shape.
 
 You can change the dimensionality by modifying the dim constant in main() and recompiling. You will probably need to adjust the scale too. In my computer it works fine up to 10 dimensions, but it becomes too slow with higher numbers.
 
